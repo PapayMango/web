@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
+import Home_ from './Home'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -113,7 +114,7 @@ export default function Home() {
             </h2>
             <p className={inter.className}>
               Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
+              with&nbsp;Vercel
             </p>
           </a>
         </div>
