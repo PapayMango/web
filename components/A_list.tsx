@@ -1,7 +1,7 @@
 import './A_list.css'
 import Article from './Article'
-import mysql from 'mysql2'
-import { GetStaticProps,NextPage } from 'next'
+// import mysql from 'mysql2'
+// import { GetStaticProps,NextPage } from 'next'
 
 type ArticleProps = React.ComponentProps<typeof Article>
 type A_listProps = {

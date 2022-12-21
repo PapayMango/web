@@ -13,7 +13,7 @@ function Article(props:Props){
     return (
         <article className="Article">
             <Link href=''>
-                <Image loading='lazy' src={props.src} alt={props.alt} />
+                <Image loading='lazy' src={props.src} alt={props.alt} width={100} height={100} />
                 <h2>{props.title}</h2>
                 <p>{props.descripion}</p>
             </Link>
