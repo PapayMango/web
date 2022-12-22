@@ -6,16 +6,16 @@ type Props = {
     src:string,
     alt:string,
     title:string,
-    descripion:string
+    descript:string
 }
 
 function Article(props:Props){
     return (
-        <article className="Article">
+        <article className="Article" >
             <Link href=''>
-                <Image loading='lazy' src={props.src} alt={props.alt} width={100} height={100} />
+                <Image loading='lazy' src={props.src} alt={props.alt} width={500} height={300} />
                 <h2>{props.title}</h2>
-                <p>{props.descripion}</p>
+                <p>{props.descript}</p>
             </Link>
         </article>
     );

@@ -17,14 +17,15 @@ type A_listProps = {
 
 // function A_list(props:Array<ArticleProps>):NextPage<Array<ArticleProps>>{
 function A_list({articles}:A_listProps){
-    let list = []
-    // for(let i of props){
-    for(let i of articles){
-        list.push(<Article {...i} />)
-    }
+    // let list = []
+    // // for(let i of props){
+    // for(let i of articles){
+    //     list.push(<Article {...i} />)
+    // }
     return (
         <div>
-            {list}
+            {/* {list} */}
+            {articles.map((e,i)=>(<Article {...e} key={i} />))}
         </div>
     )
 }

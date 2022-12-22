@@ -33,7 +33,7 @@ export default function Home({articles}:A_listProps){
                 <A_list articles={articles}/>
             </main>
             <footer>
-
+                
             </footer>
         </>
     )
