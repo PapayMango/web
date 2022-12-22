@@ -1,4 +1,4 @@
-import './A_list.css'
+import styles from '../styles/A_list.module.css'
 import Article from './Article'
 // import mysql from 'mysql2'
 // import { GetStaticProps,NextPage } from 'next'
@@ -23,9 +23,9 @@ function A_list({articles}:A_listProps){
         list.push(<Article {...i} />)
     }
     return (
-        <main>
+        <div>
             {list}
-        </main>
+        </div>
     )
 }
 
