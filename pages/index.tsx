@@ -27,13 +27,13 @@ export default function Home({articles}:A_listProps){
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <header>
-
+                <div className="font-bold">header</div>
             </header>
             <main>
                 <A_list articles={articles}/>
             </main>
             <footer>
-                
+                <h1 className="text-gray-300 font-bold underline">tailwindcss</h1>
             </footer>
         </>
     )

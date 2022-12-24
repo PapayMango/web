@@ -23,7 +23,7 @@ function A_list({articles}:A_listProps){
     //     list.push(<Article {...i} />)
     // }
     return (
-        <div>
+        <div className={styles.main}>
             {/* {list} */}
             {articles.map((e,i)=>(<Article {...e} key={i} />))}
         </div>
