@@ -6,7 +6,7 @@ import Article from './Article'
 type ArticleProps = React.ComponentProps<typeof Article>
 type A_listProps = {
     articles:ArticleProps[]
-} 
+}
 
 // let db = {
 //     host:'localhost',
